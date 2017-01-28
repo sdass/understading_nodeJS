@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"collect",
+				"collection"
+			],
+			[
+				"Vie",
+				"ViewOfLibrary"
+			],
+			[
+				"V",
+				"ViewOfLibrary"
+			],
+			[
+				"book",
+				"book_c"
+			],
+			[
+				"exte",
+				"extend"
+			],
+			[
+				"mod",
+				"model"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"ex",
+				"express()"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"thr",
+				"third\t(?)"
+			],
+			[
+				"p",
+				"p2\t(str)"
+			],
+			[
+				"c",
+				"console"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 252,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/backbone/mych5/index.html",
+			"settings":
+			{
+				"buffer_size": 6114,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nvar http = require('http');\n\nvar url = require('url');\n\n\n//var exports = module.exports = {};\nfunction startserver(route) {\n\n\t\tfunction uponRequest(req, res){\n\t\tconsole.log('request recvd on ' + req.url);\t\n\n\t\tvar pathname = url.parse(req.url).pathname;\n\t\tconsole.log('pathname= ' + pathname);\t\n\n\t\t// use: curl  \"http://localhost:5000/hello/sdass/hobby/cricket?ab=c&bc=yu\"\n\t\tvar query = url.parse(req.url).query;\n\t\tconsole.log('query= ' + query);\n\n\n\n\n\t\t\tres.writeHead(200, {\"Content-Type\" : \"text/plain\"});\n\t\tres.write('Hello World');\n\t\troute(pathname);\n\t\tres.end();\n\t};\n\n\thttp.createServer(uponRequest)\n\t    .listen(5000, function(){\n\t    \tconsole.log('listening on port 5000');\n\t\t\tconsole.log('use http://localhost:5000');\n\t    \t});\n\tconsole.log('1st server started');\n\n/*\n\tfunction route(pathname){\n\t\tconsole.log('routing request to --> ' + pathname);\t\n\t}\n\t*/\n\n}\n\nexports.startserver = startserver; //1. outside the function Lef&Right operand same name\n",
+			"file": "fragment-server.js",
+			"file_size": 1000,
+			"file_write_time": 131290871077002139,
+			"settings":
+			{
+				"buffer_size": 956,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "requestHandlers.js",
+			"settings":
+			{
+				"buffer_size": 183,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/backbone/mych4/index.html",
+			"settings":
+			{
+				"buffer_size": 4860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "route.js",
+			"settings":
+			{
+				"buffer_size": 99,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Temp/Practice/nodejs/understading_nodeJS"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/drf-pro/js/app/util.js",
+		"/C/Temp/Practice/nodejs/understading_nodeJS/server.js",
+		"/C/Temp/Practice/nodejs/understading_nodeJS/server-decipher.js",
+		"/C/Temp/Practice/nodejs/understading_nodeJS/helloword.js",
+		"/C/Temp/Practice/nodejs/nodejs_server.js",
+		"/C/Temp/Practice/nodejs/helloword.js",
+		"/C/xampp/htdocs/backbone/mych5/index.html",
+		"/C/xampp/htdocs/backbone/mych3/index.html",
+		"/C/Users/Nielam/Statistics/Google Ngram Viewer.html",
+		"/C/Temp/Practice/nodejs/ch03/server.js",
+		"/C/Users/sdass/nodejs/ch03/server.js",
+		"/C/xampp/htdocs/backbone/fromgithub/beginning-backbone/chapter3/client/index.html",
+		"/C/Users/sdass/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/xampp/htdocs/backbone/fromgithub/beginning-backbone/chapter3/server/server.js",
+		"/C/Temp/Practice/sublimeText/projOne/projOne.sublime-project",
+		"/C/Users/sdass/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/Temp/Practice/sublimeText/projOne/test.html",
+		"/C/xampp/htdocs/backbone/index.html",
+		"/C/xampp/htdocs/backbone/fromgithub/beginning-backbone/chapter1/index.html",
+		"/C/Temp/Practice/sublimeText/projOne/namespace.js",
+		"/C/Temp/Practice/sublimeText/projOne/inheritance.js",
+		"/C/Temp/Practice/sublimeText/projOne/prototype.js",
+		"/C/Temp/Practice/angularjs/moduleSeparate/hello2.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"route",
+			"link",
+			"model",
+			"router",
+			"<li",
+			"View",
+			"collection",
+			"collecti",
+			"append",
+			"view",
+			"el",
+			"tag",
+			"render",
+			"template",
+			"el",
+			"$el",
+			"View",
+			"Collection",
+			"url",
+			"Model",
+			"SimpleRouter",
+			"oneRouter",
+			"Simple",
+			"route",
+			"startserver",
+			"library-template2",
+			"In GET function",
+			"url",
+			"extend",
+			"create",
+			"save",
+			"local",
+			"written b",
+			"put",
+			"findBook",
+			"parseInt",
+			"put",
+			"saving book",
+			"use curl",
+			"save",
+			"sav1",
+			"save",
+			"push",
+			"post",
+			"fetch"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/backbone/mych5/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 428.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fragment-server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "requestHandlers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/backbone/mych4/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "route.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Node.sublime-build",
+	"project": "UnderstandNodeJS.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
